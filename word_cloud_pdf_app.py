@@ -49,18 +49,3 @@ if uploaded_file is not None:
         st.error("Unable to decode the uploaded file. Please try a different file.")
 
 
-#         hey ChatGPT, act as a Web Application Developer, write a complete code for me in python using important python
-# libraries to make a web application using streamlit, The app i would like to make is as follows:
-# 1- Aim of the app: The main aim is to build an app where a user Will upload a document in the form of .docx, .pdf, .txt,
-# and/or any other document format. The user Will get a word cloud from that document.
-# 2- The app should be able to handle different encodings.
-# Follow this workflow:
-
-# 1- Title of the app is "Sadi Word Cloud di app"
-# 2- Ask the user to upload a single or multiple files
-# 3- Do not use stop words inside the word cloud, and provide a checkbox to activate this option
-# 4- Enlist the top 50 words and ask the user to add additional stop words and then remove them from word cloud.
-# 5- Make a word cloud from that file
-# 6- Make a table with the frequency of each word sorting it into descending order and print the table
-# 7- At the end give me options to add my social media accounts
-# Show me complete code for this app, please do not produce errors.
